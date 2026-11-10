@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — SnoreLog</title>
+<style>
+  :root {
+    --bg: #F4FAFA; --surface: #FFFFFF; --ink: #161D1D; --muted: #3F4949;
+    --primary: #00696B; --container: #B6ECEC; --line: #DAE4E4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+  .logo {
+    width: 56px; height: 56px; border-radius: 14px; background: #0F2A3D;
+    display: flex; align-items: flex-end; justify-content: center;
+    gap: 4px; padding-bottom: 14px; flex: none;
+  }
+  .logo i { display: block; width: 5px; background: #fff; border-radius: 2px; }
+  .logo i:nth-child(1) { height: 8px; }
+  .logo i:nth-child(2) { height: 16px; }
+  .logo i:nth-child(3) { height: 26px; }
+  .logo i:nth-child(4) { height: 19px; }
+  .logo i:nth-child(5) { height: 10px; }
+  .logo i:nth-child(6) { height: 4px; background: #00C2A8; }
+  h1 { font-size: 28px; font-weight: 700; color: var(--primary); }
+  .meta { color: var(--muted); font-size: 14px; }
+  .highlight {
+    background: var(--container); color: #002020; border-radius: 10px;
+    padding: 16px 20px; margin: 12px 0 20px; font-size: 15px;
+  }
+  .highlight b { color: var(--primary); }
+  h2 {
+    font-size: 19px; color: var(--primary); margin: 26px 0 8px;
+    padding-bottom: 6px; border-bottom: 2px solid var(--container);
+  }
+  p, li { font-size: 15px; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  li { margin: 5px 0; }
+  code {
+    background: var(--container); color: #002020; border-radius: 4px;
+    padding: 1px 7px; font-size: 13px; white-space: nowrap;
+  }
+  .muted { color: var(--muted); font-size: 13.5px; }
+  a { color: var(--primary); }
+  footer { margin-top: 36px; text-align: center; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">SnoreLog (安睡宝) for Android · Effective November 10, 2026</div>
+    </div>
+  </header>
+
+  <div class="highlight">
+    <b>In one sentence:</b> SnoreLog records and analyzes audio entirely on your phone.
+    It has <b>no Internet permission and no networking code</b> — your data cannot leave the device.
+  </div>
+
+  <h2>1. Data we process</h2>
+  <ul>
+    <li><b>Microphone audio</b> — recorded only during a session you start, stored in the App's
+        private folder; short clips are kept for replay only if "Save snore clips" is on.</li>
+    <li><b>Statistics and settings</b> — event counts, durations, level grades and your preferences,
+        stored in a local database on your phone.</li>
+  </ul>
+  <p class="muted">
+    The bundled YAMNet classifier (3.9&nbsp;MB) runs on your device. Nothing is uploaded or shared.
+  </p>
+
+  <h2>2. What we never do</h2>
+  <ul>
+    <li>No collection, transmission, sale or sharing of any personal data</li>
+    <li>No account, sign-in or identifiers (no device or advertising ID)</li>
+    <li>No analytics, crash-reporting, tracking or advertising SDKs</li>
+    <li>No access to contacts, location, camera or other apps' data</li>
+  </ul>
+
+  <h2>3. Permissions</h2>
+  <ul>
+    <li><code>RECORD_AUDIO</code> — night recording; you grant it at first start and can revoke it anytime</li>
+    <li><code>FOREGROUND_SERVICE</code> + <code>WAKE_LOCK</code> — keeps recording running with the screen off</li>
+    <li><code>POST_NOTIFICATIONS</code> — the required ongoing "Recording" notification (Android 13+)</li>
+  </ul>
+
+  <h2>4. Deleting your data</h2>
+  <ul>
+    <li>Single night: the delete button in History removes that night's events, stats and clips</li>
+    <li>Audio only: Settings → "Saved clips on disk" → "Delete all"</li>
+    <li>Everything: uninstall the App — Android removes all local data automatically</li>
+  </ul>
+  <p class="muted">There is no server copy, so nothing needs deleting on our side.</p>
+
+  <h2>5. Children</h2>
+  <p>
+    SnoreLog is not directed at children under 13. It collects no data from anyone — child or adult —
+    because it cannot transmit data.
+  </p>
+
+  <h2>6. Health note</h2>
+  <p>
+    SnoreLog is a recording tool, not a medical device. Breath pauses or daytime sleepiness can
+    be signs of sleep apnea — please consult a doctor.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>Email: <a href="mailto:jeff_guo2023@outlook.com">jeff_guo2023@outlook.com</a>
+     <span class="muted">(replace before publishing)</span></p>
+
+  <footer>SnoreLog · Privacy Policy · November 10, 2026</footer>
+</div>
+</body>
+</html>
